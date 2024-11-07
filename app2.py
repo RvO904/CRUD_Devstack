@@ -86,4 +86,4 @@ if __name__ == "__main__":
     #client = MongoClient('mongodb://localhost:27018/')
     #db = client['Distribuidos']
     #collection = db['tasks']
-    app.run(debug=True, port=8000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
