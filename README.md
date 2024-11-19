@@ -25,7 +25,7 @@ Esta es una versión de Devstack que ya no se encuentra en mantenimiento, pero q
 
 ## Resumen de pasos para la instalación de Devstack
 1. Después de instalar Ubuntu, de ser necesario, instalar vim y git
-2. Clonar el repositorio de Git de Devstack sabor Yoga a través del siguiente comando: git clone https://opendev.org/openstack/devstack -b unmaintained/yoga
+2. Clonar el repositorio de Git de Devstack sabor Yoga a través del siguiente comando: ```git clone https://opendev.org/openstack/devstack -b unmaintained/yoga```
 3. Una vez clonado el repositorio, se deberá usar el siguiente comando: cd devstack. Esto es con el fin de entrar a la carpeta de Devstack
 4. Usar el comando "ip a" con el fin de obtener la dirección IP asignada a la máquina virtual
 5. Dentro de la carpeta de Devstack, se deberá crear con vim un archivo con el nombre "local.conf", los contenidos mínimos de este archivo son los siguientes
@@ -37,7 +37,7 @@ Esta es una versión de Devstack que ya no se encuentra en mantenimiento, pero q
     SERVICE_PASSWORD=$ADMIN_PASSWORD
     HOST_IP=**Colocar aqui el IP obtenido en el paso anterior**
     ```
-6. Una vez el archivo esté creado, se deberá ejecutar el siguiente comando para hacer la instalación de Devstack: . /stack.sh
+6. Una vez el archivo esté creado, se deberá ejecutar el siguiente comando para hacer la instalación de Devstack: ```. /stack.sh```
 7. El proceso de instalación de Devstack puede tomar de 15 a 30 minutos, una vez termine, se podrá acceder al dashboard de Horizon con el usuario "admin" y la contraseña que se asignó en el archivo local.conf
 
 ## ¿Qué hacer después de la instalación de Devstack?
