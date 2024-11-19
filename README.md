@@ -51,3 +51,6 @@ especificado
 
 Por parte del puerto, **siempre asegurarse de establecer una regla de seguridad** para que se establezca exitosamente una conexión hacia tal puerto desde el navegador, de tal manera que podamos establecer conexión
 con nuestro CRUD poniendo en nuestro navegador por ejemplo "10.0.5.2:5000"
+
+# Video tutorial para la instalación
+Si se desean detalles extra sobre la instalación de Devstack o del CRUD en la instancia ya creada, por favor referirse al siguiente video tutorial: https://www.youtube.com/watch?v=6EwHSw-6Uoc
